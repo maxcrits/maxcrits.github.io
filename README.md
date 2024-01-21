@@ -1,2 +1,2 @@
-# web-project
-school project
+# webdesign-project
+project for graphic design school
