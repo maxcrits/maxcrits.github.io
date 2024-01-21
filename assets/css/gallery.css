@@ -1,0 +1,39 @@
+.lightbox {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 90vh;
+  background-image: url("../images/gallery/1.jpeg");
+}
+
+.lb-thumbnails {
+  height: 75vh;
+  margin-left: 5vw;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+.lb-preview {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 10vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lb-preview:hover {
+  border-color: rgb(233, 171, 184);
+}
+
+.lb-selected {
+  border-color: rgb(233, 171, 184);
+}
+
+.lb-description {
+  margin-right: 5vw;
+}

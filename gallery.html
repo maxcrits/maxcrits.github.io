@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- CSS -->
+  <link href="./assets/css/index.css" rel="stylesheet" type="text/css">
+  <link href="./assets/css/gallery.css" rel="stylesheet" type="text/css">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="./index.html">RAZER KRAKEN KITTY</a>
+    <ul>
+      <li><a href="./specs.html">TECH SPECS</a></li>
+      <li><a href="./design.html">DESIGN</a></li>
+      <li><a href="./gallery.html">GALLERY</a></li>
+    </ul>
+  </header>
+  <!-- GALLERY -->
+  <section>
+    <div id="lightbox" class="lightbox">
+      <div class="lb-thumbnails">
+        <img id="preview-1" onclick="setSelected(1)" class="lb-preview" src="./assets/images/gallery/1.jpeg"
+          alt="preview-image">
+        <img id="preview-2" onclick="setSelected(2)" class="lb-preview" src="./assets/images/gallery/2.jpeg"
+          alt="preview-image">
+        <img id="preview-3" onclick="setSelected(3)" class="lb-preview" src="./assets/images/gallery/3.jpeg"
+          alt="preview-image">
+        <img id="preview-4" onclick="setSelected(4)" class="lb-preview" src="./assets/images/gallery/4.jpeg"
+          alt="preview-image">
+        <img id="preview-5" onclick="setSelected(5)" class="lb-preview" src="./assets/images/gallery/5.jpeg"
+          alt="preview-image">
+        <img id="preview-6" onclick="setSelected(6)" class="lb-preview" src="./assets/images/gallery/6.jpeg"
+          alt="preview-image">
+      </div>
+      <div>
+        <p class="lb-description pink-gradient">
+          RAZER KRAKEN KITTY
+        </p>
+        <p class="text-roboto">Wired RGB Headset With Interchangeable Ears</p>
+      </div>
+    </div>
+  </section>
+  <footer class="card">
+    <h2 class="text-roboto-medium">SEE THE</h2>
+    <ul>
+      <li><a class="pink-gradient" href="./specs.html">TECH SPECS</a></li>
+      <li><a class="pink-gradient" href="./design.html">DESIGN</a></li>
+      <li><a class="pink-gradient" href="./gallery.html">GALLERY</a></li>
+    </ul>
+  </footer>
+</body>
+
+<script src="./assets/js/gallery.js"></script>
+
+</html>

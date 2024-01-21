@@ -1,0 +1,36 @@
+.card-specs {
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border: solid;
+  border-width: 1px 0;
+  border-color: rgb(233, 171, 184);
+}
+
+th {
+  padding-right: 200px;
+}
+
+td {
+  padding-left: 200px;
+}
+
+section li {
+  float: none;
+}
+
+section li::after {
+  content: "";
+}
