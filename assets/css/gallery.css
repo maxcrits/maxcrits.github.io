@@ -14,6 +14,11 @@
   overflow-y: scroll;
 }
 
+/* FOR CHROME & SAFARI */
+.lb-thumbnails::-webkit-scrollbar {
+  display: none;
+}
+  
 .lb-preview {
   display: flex;
   justify-content: space-between;
